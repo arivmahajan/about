@@ -1,6 +1,7 @@
 body{
     background-image: linear-gradient(to right, black,white);
     margin: auto;
+    font-family: 'Product Sans';
 }
 h1{
     text-align: center;
