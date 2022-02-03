@@ -1,0 +1,60 @@
+body{
+    text-align: left;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-family: Product Sans;
+    text-shadow: rgb(0, 0, 0) 0 0 10px;
+}
+input,option{
+    background-image: linear-gradient(rgb(240, 240, 240),rgb(199, 199, 199),rgb(240, 240, 240));
+    color: rgb(59, 59, 59);
+    border: none;
+    font-family: Product Sans;
+
+}
+nav{
+    background-image: linear-gradient(rgb(240, 240, 240),rgb(199, 199, 199),rgb(240, 240, 240));
+    background-size: contain;
+    height:auto;
+    text-align: center;
+    margin: auto;
+    border-radius: 1vw;
+    padding: 1%;
+}
+.a:hover{
+    font-size: 1.6vw;
+}
+nav img{
+    width: 5vw;
+    transition: width ease-in-out 400ms;
+}
+nav img:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 2vw;
+    width: 4.75vw;
+}
+.a{
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(0, 0, 0) 0 0 10px;
+    text-decoration: none;
+    margin: 1%;
+    font-family: 'Product Sans';
+    font-size: 1.75vw;
+    vertical-align:100%;
+    transition: 0.8s;
+    transition-duration: infinite;
+}
+
+h1{
+
+    text-align: center;
+    font-family: 'Product Sans';
+    font-size: 2vw;
+    transition:font-size 0.8s ease-in-out 100ms;
+}
+h1:hover{
+    font-size:2.25vw;
+}
+#wink{
+    font-style: italic;
+}

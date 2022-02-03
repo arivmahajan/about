@@ -1,0 +1,14 @@
+#weather{
+    background-image: radial-gradient(rgb(255, 118, 232),rgb(52, 174, 255));
+    color: rgba(22, 22, 22, 0.88);
+    text-align:center;
+    border-radius: 7em;
+    margin: 30vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 7vh;
+}
+body{
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+}

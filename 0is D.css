@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: honeydew;
+    margin: auto;
+}
+img{
+    display: block;
+    margin: auto;
+    height: 75vh;
+    transition: all ease-in-out 400ms;
+}
+nav{
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(59, 59, 59),rgb(0, 0, 0));
+    background-size: contain;
+    height:auto;
+    text-align: center;
+    margin: auto;
+    border-radius: 1vw;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+}
+.a{
+    color: rgb(199, 199, 199);
+    text-shadow: rgba(255, 255, 255, 0.75) 0 0 10px;
+    text-decoration: none;
+    margin: 1%;
+    font-family: 'Product Sans';
+    font-size: 1.75vw;
+    vertical-align:100%;
+    transition: 0.8s;
+    transition-duration: infinite;
+}
+.a:hover{
+    font-size: 1.6vw;
+}

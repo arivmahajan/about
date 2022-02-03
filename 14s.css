@@ -1,0 +1,92 @@
+input{
+    border: none;
+    margin: auto;
+    color: whitesmoke;
+    box-shadow: 0 0 10px rgb(0,0,0);
+    background-color: transparent;
+    border-radius: 3vw;
+    width: 98vw;
+}
+header{
+    padding: auto;
+}
+main{
+    width:fit-content;
+    padding: auto;
+}
+body{
+    margin:auto;
+    background-image: linear-gradient(rgb(221, 221, 221),rgb(49, 49, 49));
+}
+.backdrops{
+    display: grid;
+    grid-template-columns:25vw 20vw 20vw;
+}
+.emp{
+    margin: 2vw;
+    justify-content:center;
+    background-size: cover;
+    width: 60vw;
+    height: 32vh;
+    background-repeat: no-repeat;
+    border-radius: 5.5vw;
+    text-align: center;
+    vertical-align: 100%;
+    transition: all 0.8s;
+    filter:blur(3.5px);
+}
+.emp:hover{
+    border-radius: 9vw;
+    filter: blur(0px);
+}
+.hI{
+    font-size: 3vw;
+    text-align: center;
+    width: 45vw;
+    z-index: 1;
+    opacity: 1;
+    text-shadow: #FFFFFF 0px 0 20px;
+    vertical-align: 100%;
+    margin-top: 16vh;
+    margin-bottom: 16vh;
+    margin-left: -9.5vw;
+}
+.ht{
+    vertical-align: middle;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    vertical-align: 100%;
+    margin-right: 32.5vw;
+    margin-left: 12.5vw;
+    width: 35vw;
+    height: 30vh;
+    z-index: 1;
+    opacity: 1;
+    text-shadow: #FFF 1px 0 10px;}
+.thumb{
+    width:12em;
+    padding: 5%;
+    border-radius: 6em;
+    transition: all .8s;
+    border-collapse: collapse;
+}
+.thumb:hover {
+    transform: scale(1);
+    /*width: 13em;*/
+    border-radius: 9em;
+}
+.realh2{
+    text-align: center;
+    width: 55vw;
+    height: 40vh;
+    box-shadow: 0 0 24px rgb(0,0,0);
+    margin-left: 30vw;
+    margin-right: 15vw;
+    filter: blur(3px);
+    border-radius: 6.5vw;
+    transition: all 0.8s;
+}
+.realh2:hover{
+    border-radius: 13vw;
+    filter: blur(0px);
+}
