@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient(to right, black,white);
+    margin: auto;
+}
+h1{
+    text-align: center;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    font-size: 2vw;
+    transition: all 0.8s;
+}
+.showcase{
+    background-color: transparent;
+    border-radius: 5vw;
+    width: 40vw;
+    height: 38vh;
+    margin: auto;
+    transition: 0.8s all;
+    margin-top: 2.5vw;
+    margin-bottom: 2vw;
+    overflow: hidden;
+    padding: 14vh;
+}
+
+.d{
+    width: 5vw;
+    padding: 1vw;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(0, 0, 0) 0 0 10px;
+    box-shadow: 0 0 24px rgb(0, 0, 0);
+    text-decoration: none;
+    margin: auto;
+    margin-left: 6vw;
+    margin-right: 5vw;
+    /*margin-left: 3vw;
+    margin-right: 42vw;*/
+    border-radius: 2vw;
+    font-family: 'Product Sans';
+    font-size: 1.75vw;
+    vertical-align:100%;
+    transition: all 0.8s;
+    transition-duration: infinite;
+}
+.l{
+    width: 5vw;
+    padding: 1vw;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(255, 255, 255, 1) 0 0 10px;
+    box-shadow: 0 0 24px rgb(255, 255, 255);
+    text-decoration: none;
+    margin: auto;
+    margin-left: 5vw;
+    /*margin-right: 3vw;
+    margin-left: 42vw;*/
+    border-radius: 2vw;
+    font-family: 'Product Sans';
+    font-size: 1.75vw;
+    vertical-align:100%;
+    transition: all 0.8s;
+    transition-duration: infinite;
+}
