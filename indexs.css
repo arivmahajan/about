@@ -8,6 +8,7 @@ h1{
     text-shadow: 0 0 10px rgb(255, 255, 255);
     font-size: 2vw;
     font-family: 'Product Sans';
+    src: url("../about/Product Sans Regular.ttf") format('truetype');
     transition: all 0.8s;
 }
 .showcase{
