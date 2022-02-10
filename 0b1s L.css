@@ -1,3 +1,7 @@
+@font-face{
+    font-family: 'Product Sans';
+    src: url("../about/Product Sans Regular.ttf") format('truetype');
+}
 body{
     text-align: left;
     background-color: rgb(240, 240, 240);
