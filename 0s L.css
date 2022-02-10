@@ -1,3 +1,7 @@
+@font-face{
+    font-family: 'Product Sans';
+    src: url("../about/Product Sans Regular.ttf") format('truetype');
+}
 nav{
     background-image: linear-gradient(rgb(241, 241, 241),rgb(180, 180, 180),rgb(240, 240, 240));
     background-size: contain;
@@ -72,7 +76,7 @@ footer{
     display: block;
     width: 100%;
     height: 100%;
-    background: url("whatsapp.svg.svg");
+    background: url("../about/whatsapp.svg.svg");
     background-size: cover;
     transform-style: preserve-3d;
     transform: rotateX(0deg);
@@ -115,7 +119,7 @@ footer{
     display: block;
     width: 100%;
     height: 100%;
-    background: url("linkedin-logo-png-1826.png");
+    background: url("../about/linkedin-logo-png-1826.png");
     background-size: cover;
     transform-style: preserve-3d;
     transform: rotateX(0deg);
@@ -158,7 +162,7 @@ footer{
     display: block;
     width: 100%;
     height: 100%;
-    background: url("logo-instagram-png-2431.png");
+    background: url("../about/logo-instagram-png-2431.png");
     background-size: cover;
     transform-style: preserve-3d;
     transform: rotateX(0deg);
@@ -201,7 +205,7 @@ footer{
     display: block;
     width: 100%;
     height: 100%;
-    background: url("spotify-logo-png-7055.png");
+    background: url("../about/spotify-logo-png-7055.png");
     background-size: cover;
     transform-style: preserve-3d;
     transform: rotateX(0deg);
@@ -245,7 +249,7 @@ footer{
     display: block;
     width: 100%;
     height: 100%;
-    background: url("Gmail-logo-design-on-transparent-background-PNG.png");
+    background: url("../about/Gmail-logo-design-on-transparent-background-PNG.png");
     background-size: cover;
     transform-style: preserve-3d;
     transform: rotateX(0deg);
