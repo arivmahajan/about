@@ -148,3 +148,21 @@ footer{
 .showcase3 a{
     text-decoration: none;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 1vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: 0 0 3px grey;
+  border-radius: 2vw;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+   box-shadow: 0 0 7px white;
+  background: white;
+  border-radius: 2vw;
+}
