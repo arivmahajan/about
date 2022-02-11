@@ -1,3 +1,7 @@
+@font-face{
+    font-family: 'Product Sans';
+    src: url("../about/Product Sans Regular.ttf") format('truetype');
+}
 #weather{
     background-image: radial-gradient(rgb(255, 118, 232),rgb(52, 174, 255));
     color: rgba(22, 22, 22, 0.88);
